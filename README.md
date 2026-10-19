@@ -6,7 +6,7 @@ Three implementations of an 8 x 8 DCT, quantization and image reconstruction pip
 
 ## My contribution
 
-I implemented and analyzed Parts 1–3: the scalar baseline, RVV reduction, and RVV independent-output implementation. Parts 4–5 of the original two-person course project were CUDA implementations contributed by my teammate and are outside the implementation scope of this personal repository draft.
+I implemented and analyzed Parts 1–3: the scalar baseline, RVV reduction, and RVV independent-output implementation. Parts 4–5 of the original two-person course project were CUDA implementations contributed by my teammate and are outside the implementation scope of this personal repository.
 
 個人分工已於 2026-10-19 由作者確認。原始團隊提交檔案另外保存；這份個人展示以 Part 1–3 為主。
 
@@ -51,7 +51,7 @@ Image checks above concern saved artifacts. They do not prove that every interme
 
 ## Reproduction plan
 
-This is a local repository planning draft. Before publishing runnable instructions:
+This repository preserves the original source and archived results. Reproducing the project requires the following preparation:
 
 1. Correct the old `P1/P2/P3` paths to match the actual `part1/part2/part3` directories, and make input/output and gem5 paths configurable.
 2. Preserve archived formal results outside the generated `m5out/` folders, which the current Makefiles delete on run/clean.
@@ -65,4 +65,4 @@ Full-image benchmark input SHA-256: `a8baf05ce341da86dd0249eaca7a122036ca1cfb584
 
 ## Project context
 
-Originally developed as a two-person Computer Architecture final project. This draft highlights the author's scalar/RVV contribution and retains evidence boundaries between archived logs, saved-image checks and future execution tests.
+Originally developed as a two-person Computer Architecture final project. This repository highlights the author's scalar/RVV contribution and retains evidence boundaries between archived logs, saved-image checks and future execution tests.
