@@ -1,0 +1,110 @@
+[
+  {
+    "part": "part1",
+    "simSeconds": 37.664831,
+    "simInsts": 21374974987,
+    "simOps": 21374975026,
+    "numCycles": 75329661396,
+    "cpi": 3.524198,
+    "dcacheMissRate": 0.000656,
+    "blocks": [
+      "279936",
+      "279936"
+    ],
+    "nonzero": "603784",
+    "checksum": "2869008194105992508",
+    "mse": "1.984526",
+    "psnr": "45.154236",
+    "environment": {
+      "cpu_type": "BaseTimingSimpleCPU",
+      "icache_size": 32768,
+      "icache_assoc": 8,
+      "dcache_size": 32768,
+      "dcache_assoc": 8,
+      "cache_line_size": 32,
+      "isa": [
+        {
+          "type": "RiscvISA",
+          "elen": 64,
+          "enable_rvv": true,
+          "riscv_type": "RV64",
+          "vlen": 256
+        }
+      ]
+    },
+    "cycles_relative_to_part1": 1.0,
+    "instructions_relative_to_part1": 1.0
+  },
+  {
+    "part": "part2",
+    "simSeconds": 11.404878,
+    "simInsts": 6105866037,
+    "simOps": 6105866076,
+    "numCycles": 22809755208,
+    "cpi": 3.735709,
+    "dcacheMissRate": 0.001335,
+    "blocks": [
+      "279936",
+      "279936"
+    ],
+    "nonzero": "603783",
+    "checksum": "12560246274068703731",
+    "mse": "1.984526",
+    "psnr": "45.154236",
+    "environment": {
+      "cpu_type": "BaseTimingSimpleCPU",
+      "icache_size": 32768,
+      "icache_assoc": 8,
+      "dcache_size": 32768,
+      "dcache_assoc": 8,
+      "cache_line_size": 32,
+      "isa": [
+        {
+          "type": "RiscvISA",
+          "elen": 64,
+          "enable_rvv": true,
+          "riscv_type": "RV64",
+          "vlen": 256
+        }
+      ]
+    },
+    "cycles_relative_to_part1": 3.302519501374563,
+    "instructions_relative_to_part1": 3.5007278013426877
+  },
+  {
+    "part": "part3",
+    "simSeconds": 7.98061,
+    "simInsts": 3659225278,
+    "simOps": 4662515941,
+    "numCycles": 15961219274,
+    "cpi": 4.361907,
+    "dcacheMissRate": 0.001661,
+    "blocks": [
+      "279936",
+      "279936"
+    ],
+    "nonzero": "603784",
+    "checksum": "2869008194105992508",
+    "mse": "1.984526",
+    "psnr": "45.154236",
+    "environment": {
+      "cpu_type": "BaseTimingSimpleCPU",
+      "icache_size": 32768,
+      "icache_assoc": 8,
+      "dcache_size": 32768,
+      "dcache_assoc": 8,
+      "cache_line_size": 32,
+      "isa": [
+        {
+          "type": "RiscvISA",
+          "elen": 64,
+          "enable_rvv": true,
+          "riscv_type": "RV64",
+          "vlen": 256
+        }
+      ]
+    },
+    "cycles_relative_to_part1": 4.719543043851801,
+    "instructions_relative_to_part1": 5.84139356368974
+  }
+]

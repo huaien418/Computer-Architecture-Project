@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1350" height="500" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1350 500" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1350" height="500"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-500)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1350" height="500" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="45" y="450" style="font-family: Helvetica-Bold; font-size: 25px;fill: rgb(12%,20%,27%); stroke:none;" transform="translate(0,900) scale(1,-1)">RISC-V 2-D DCT | Archived gem5 benchmark</text>
+			<g transform="">
+				<g transform="">
+					<rect x="220.0" y="145.23809523809524" width="63.5654759820049" height="62.85714285714283" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,58%,49%); fill-rule: evenodd;"/>
+					<rect x="220.0" y="218.57142857142856" width="90.8397361090934" height="62.85714285714283" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(38%,51%,59%); fill-rule: evenodd;"/>
+					<rect x="220.0" y="291.90476190476187" width="300.0" height="62.85714285714283" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,32%,44%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,290.565476,176.666667)">
+							<text x="0.0" y="-4.800000000000001" style="font-family: Courier; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-9) scale(1,-1)">15.961 B</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,317.839736,250)">
+							<text x="0.0" y="-4.800000000000001" style="font-family: Courier; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-9) scale(1,-1)">22.810 B</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,527,323.333333)">
+							<text x="0.0" y="-4.800000000000001" style="font-family: Courier; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-9) scale(1,-1)">75.330 B</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform=""/>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,195,176.666667)">
+							<text x="-171.60000000000002" y="-5.2" style="font-family: Courier; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-10) scale(1,-1)">P3 Independent outputs</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,195,250)">
+							<text x="-124.8" y="-5.2" style="font-family: Courier; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-10) scale(1,-1)">P2 RVV reduction</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,195,323.333333)">
+							<text x="-70.2" y="-5.2" style="font-family: Courier; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-10) scale(1,-1)">P1 Scalar</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 220,140 L 580,140 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 220,140 L 220,135 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 299.6499,140 L 299.6499,135 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 379.2998,140 L 379.2998,135 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 458.9497,140 L 458.9497,135 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 538.5996,140 L 538.5996,135 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,220,135)">
+							<text x="-3.3" y="-11.0" style="font-family: Courier; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,299.6499,135)">
+							<text x="-6.6" y="-11.0" style="font-family: Courier; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">20</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,379.2998,135)">
+							<text x="-6.6" y="-11.0" style="font-family: Courier; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">40</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,458.9497,135)">
+							<text x="-6.6" y="-11.0" style="font-family: Courier; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">60</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,538.5996,135)">
+							<text x="-6.6" y="-11.0" style="font-family: Courier; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">80</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="50" y="390" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(12%,20%,27%); stroke:none;" transform="translate(0,780) scale(1,-1)">Simulated CPU cycles</text>
+			<text x="270" y="100" style="font-family: Times-Roman; font-size: 12px;fill: rgb(30%,39%,45%); stroke:none;" transform="translate(0,200) scale(1,-1)">Billions; lower is better</text>
+			<g transform="">
+				<g transform="">
+					<rect x="890.0" y="145.23809523809524" width="51.357607860016174" height="62.85714285714283" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,58%,49%); fill-rule: evenodd;"/>
+					<rect x="890.0" y="218.57142857142856" width="85.6964657134829" height="62.85714285714283" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(38%,51%,59%); fill-rule: evenodd;"/>
+					<rect x="890.0" y="291.90476190476187" width="300.0" height="62.85714285714283" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,32%,44%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,948.357608,176.666667)">
+							<text x="0.0" y="-4.800000000000001" style="font-family: Courier; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-9) scale(1,-1)">3.659 B</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,982.696466,250)">
+							<text x="0.0" y="-4.800000000000001" style="font-family: Courier; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-9) scale(1,-1)">6.106 B</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1197,323.333333)">
+							<text x="0.0" y="-4.800000000000001" style="font-family: Courier; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-9) scale(1,-1)">21.375 B</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform=""/>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,865,176.666667)">
+							<text x="-171.60000000000002" y="-5.2" style="font-family: Courier; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-10) scale(1,-1)">P3 Independent outputs</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,865,250)">
+							<text x="-124.8" y="-5.2" style="font-family: Courier; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-10) scale(1,-1)">P2 RVV reduction</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,865,323.333333)">
+							<text x="-70.2" y="-5.2" style="font-family: Courier; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-10) scale(1,-1)">P1 Scalar</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 890,140 L 1250,140 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 890,140 L 890,135 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 960.175521,140 L 960.175521,135 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 1030.351041,140 L 1030.351041,135 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 1100.526562,140 L 1100.526562,135 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 1170.702083,140 L 1170.702083,135 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 1240.877604,140 L 1240.877604,135 Z" style="stroke: rgb(72%,76%,81%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,890,135)">
+							<text x="-3.3" y="-11.0" style="font-family: Courier; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,960.175521,135)">
+							<text x="-3.3" y="-11.0" style="font-family: Courier; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1030.351041,135)">
+							<text x="-6.6" y="-11.0" style="font-family: Courier; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">10</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1100.526562,135)">
+							<text x="-6.6" y="-11.0" style="font-family: Courier; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">15</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1170.702083,135)">
+							<text x="-6.6" y="-11.0" style="font-family: Courier; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">20</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1240.877604,135)">
+							<text x="-6.6" y="-11.0" style="font-family: Courier; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">25</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="720" y="390" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(12%,20%,27%); stroke:none;" transform="translate(0,780) scale(1,-1)">Simulated instructions</text>
+			<text x="940" y="100" style="font-family: Times-Roman; font-size: 12px;fill: rgb(30%,39%,45%); stroke:none;" transform="translate(0,200) scale(1,-1)">Billions; lower is better</text>
+			<text x="45" y="48" style="font-family: Times-Roman; font-size: 12px;fill: rgb(30%,39%,45%); stroke:none;" transform="translate(0,96) scale(1,-1)">5184 x 3456 grayscale | 279,936 blocks | TimingSimpleCPU | VLEN 256</text>
+			<text x="45" y="25" style="font-family: Times-Roman; font-size: 12px;fill: rgb(30%,39%,45%); stroke:none;" transform="translate(0,50) scale(1,-1)">Archived results inspected on 2026-10-19; simulation was not rerun.</text>
+		</g>
+	</g>
+</svg>

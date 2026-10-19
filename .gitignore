@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Original submissions and reports are kept separately
+*.zip
+*.pdf
+*.docx
+
+# Generated program and simulator outputs
+**/*.o
+/part*/main
+/part*/main_host
+/part*/reconstructed*.pgm
+/part*/m5out/
+__pycache__/
+.DS_Store
+Thumbs.db

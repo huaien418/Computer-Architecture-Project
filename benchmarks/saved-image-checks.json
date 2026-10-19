@@ -1,0 +1,66 @@
+{
+  "input_sha256": "a8baf05ce341da86dd0249eaca7a122036ca1cfb584dfbd4194a83396ff153b6",
+  "image_checks": [
+    {
+      "part": "part1",
+      "width": 5184,
+      "height": 3456,
+      "sha256": "3bf7adc416d3de91f821836bdb33677c2c503e31543513ef3c294d9097ef24d4",
+      "mse_recomputed_from_saved_images": 1.9845260389874828,
+      "psnr_recomputed_from_saved_images": 45.1542355920478
+    },
+    {
+      "part": "part2",
+      "width": 5184,
+      "height": 3456,
+      "sha256": "a53d2bd221e69e42351e61592e0630a4fe2c4a37b7794b51fbf29f66c422c367",
+      "mse_recomputed_from_saved_images": 1.984525815722165,
+      "psnr_recomputed_from_saved_images": 45.15423608064255
+    },
+    {
+      "part": "part3",
+      "width": 5184,
+      "height": 3456,
+      "sha256": "3bf7adc416d3de91f821836bdb33677c2c503e31543513ef3c294d9097ef24d4",
+      "mse_recomputed_from_saved_images": 1.9845260389874828,
+      "psnr_recomputed_from_saved_images": 45.1542355920478
+    }
+  ],
+  "comparison": {
+    "part1_part3_file_bytes_identical": true,
+    "part1_part2_file_bytes_identical": false,
+    "part1_part2_pixel_differences": 5826
+  },
+  "input_dimensions": [
+    {
+      "file": "data/input.jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "file": "data/input_gray.pgm",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "file": "data/1_gray.pgm",
+      "width": 4968,
+      "height": 2936
+    },
+    {
+      "file": "data/2_gray.pgm",
+      "width": 5528,
+      "height": 3672
+    },
+    {
+      "file": "data/input2.webp",
+      "width": 474,
+      "height": 315
+    },
+    {
+      "file": "data/input3.webp",
+      "width": 474,
+      "height": 711
+    }
+  ]
+}

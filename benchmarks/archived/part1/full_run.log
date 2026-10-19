@@ -1,0 +1,66 @@
+nohup: ignoring input
+make: Entering directory '/workspace/P1'
+riscv64-linux-gnu-gcc -std=c11 -O2 -Wall -Wextra -static main.c -o main -lm
+rm -rf m5out
+/root/gem5/build/RISCV/gem5.opt /root/gem5/configs/deprecated/example/se.py \
+	-c /workspace/P1/main \
+	-o "/workspace/data/input_gray.pgm /workspace/P1/reconstructed.pgm 0" \
+	--cpu-type=TimingSimpleCPU \
+	--mem-size=256MB \
+	--caches \
+	--l1i_size=32kB \
+	--l1i_assoc=8 \
+	--l1d_size=32kB \
+	--l1d_assoc=8 \
+	--cacheline=32
+warn: The se.py script is deprecated. It will be removed in future releases of  gem5.
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (256 Mbytes)
+src/arch/riscv/isa.cc:275: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/base/remote_gdb.cc:418: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.1.0.0
+gem5 compiled May 11 2026 21:43:23
+gem5 started Jun 17 2026 22:25:08
+gem5 executing on [host redacted], pid [pid redacted]
+command line: /root/gem5/build/RISCV/gem5.opt /root/gem5/configs/deprecated/example/se.py -c /workspace/P1/main -o '/workspace/data/input_gray.pgm /workspace/P1/reconstructed.pgm 0' --cpu-type=TimingSimpleCPU --mem-size=256MB --caches --l1i_size=32kB --l1i_assoc=8 --l1d_size=32kB --l1d_assoc=8 --cacheline=32
+
+info: Standard input is not a terminal, disabling listeners.
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:85: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Image: 5184 x 3456
+Processed blocks: 279936 / 279936
+Quantized nonzero coefficients: 603784
+Quantized checksum: 2869008194105992508
+MSE: 1.984526
+PSNR: 45.154236 dB
+Output: /workspace/P1/reconstructed.pgm
+Exiting @ tick 37664830698000 because exiting with last active thread context
+make stats
+make[1]: Entering directory '/workspace/P1'
+grep -E "simSeconds|simTicks|numCycles|simInsts|simOps|hostSeconds|cpi|overallMisses|overallMissRate" m5out/stats.txt
+simSeconds                                  37.664831                       # Number of seconds simulated (Second)
+simTicks                                 37664830698000                       # Number of ticks simulated (Tick)
+hostSeconds                                   7419.37                       # Real time elapsed on the host (Second)
+simInsts                                  21374974987                       # Number of instructions simulated (Count)
+simOps                                    21374975026                       # Number of ops (including micro ops) simulated (Count)
+system.cpu.numCycles                      75329661396                       # Number of cpu cycles simulated (Cycle)
+system.cpu.cpi                               3.524198                       # CPI: cycles per instruction (core level) ((Cycle/Count))
+system.cpu.commitStats0.cpi                  3.524198                       # CPI: cycles per instruction (thread level) ((Cycle/Count))
+system.cpu.dcache.overallMisses::cpu.data      3372702                       # number of overall misses (Count)
+system.cpu.dcache.overallMisses::total        3372702                       # number of overall misses (Count)
+system.cpu.dcache.overallMissRate::cpu.data     0.000656                       # miss rate for overall accesses (Ratio)
+system.cpu.dcache.overallMissRate::total     0.000656                       # miss rate for overall accesses (Ratio)
+system.cpu.icache.overallMisses::cpu.inst         1015                       # number of overall misses (Count)
+system.cpu.icache.overallMisses::total           1015                       # number of overall misses (Count)
+system.cpu.icache.overallMissRate::cpu.inst     0.000000                       # miss rate for overall accesses (Ratio)
+system.cpu.icache.overallMissRate::total     0.000000                       # miss rate for overall accesses (Ratio)
+make[1]: Leaving directory '/workspace/P1'
+make: Leaving directory '/workspace/P1'
